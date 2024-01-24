@@ -1,4 +1,5 @@
-key	env2	env1	差分
-fuga	bbb	aaa	あり
-piyo	piyo	指定なし	あり
-hoge	指定なし	hoge	あり
+key	env1	env2	差分
+kaigyo	"kaigyo"	"指定なし"	あり
+hoge	"hoge"	"指定なし"	あり
+fuga	"aaa"	"bbb"	あり
+piyo	"ccc	ccc"	"piyo"	あり

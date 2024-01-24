@@ -21,6 +21,6 @@ DiffPropertiesのMaven版
 input配下ディレクトリに置かれている、sample.propertiesの差分を取得する。  
 結果はoutput/output.tsvに出力する。
 
-```
+``` bash
 mvn clean compile exec:java -Dexec.mainClass="tool.diffproperties.DiffProperties" -Dexec.args="'`pwd`/sample/input/' 'sample.properties' '`pwd`/sample/output/output.tsv'"
 ```
